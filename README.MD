@@ -1,0 +1,1 @@
+In 11_Roboshop_Dev_tf we have created database servers and catalogue and  web and now in this folder we are going to create user, cart, shipping, paymnet as modules 
