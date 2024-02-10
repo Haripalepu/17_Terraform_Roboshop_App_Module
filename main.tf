@@ -8,7 +8,7 @@
 #8.Create auto scaling 
 
 #Creating targt group
-resource "aws_lb_target_group" "component" {   #componnet = hostname
+resource "aws_lb_target_group" "component" {   #componet = hostname
   name     = "${local.name}-${var.tags.component}"
   port     = 8080  #component port
   protocol = "HTTP"
